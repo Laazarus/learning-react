@@ -1,4 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is based on the official tutorial found in  [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html).
+
+After the standard tutorial I have investigated react a bit more and added the inversify functionality to it alogn with the styled componet library to style the application.
+
+Invwersify has been used to create providers, another library I was reading about is Unstated (very interesting not only for the the injection) at this [Link](https://hmh.engineering/the-unstated-react-service-pattern-786ea6168d1d).
+
+React now support officialy typescript so I have decided to use it for this demo.
+
+This is my very first app with this library so if you know any cool stuff to read about it happy to know :)
 
 ## Available Scripts
 
