@@ -6,7 +6,8 @@ After the standard tutorial I have investigated react a bit more and added the i
 Inversify has been used to create providers, another library I was reading about is Unstated (very interesting not only for the the injection) at this [Link](https://hmh.engineering/the-unstated-react-service-pattern-786ea6168d1d).
 
 Another interesting article about IOC and why using it in React is at this link
-[WHY USING IOC N REACT (with redux)](https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847).
+
+[WHY USING IOC IN REACT (with redux)](https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847).
 
 
 React now support typescript officialy so I have decided to use it for this demo.
