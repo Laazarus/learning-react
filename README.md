@@ -9,6 +9,10 @@ Another interesting article about IOC and why using it in React is at this link
 
 [WHY USING IOC IN REACT (with redux)](https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847).
 
+React Readux 
+
+[REACT-REDUX](https://medium.com/@tkssharma/understanding-redux-react-in-easiest-way-part-1-81f3209fc0e5).
+
 
 React now support typescript officialy so I have decided to use it for this demo.
 
