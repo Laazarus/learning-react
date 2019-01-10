@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
-export const StyledBoardRow=styled.div`
+ const StyledBoardRow=styled.div`
 clear: both;
 content: "";
 display: table;
 `
+export default StyledBoardRow;

@@ -1,13 +1,14 @@
 import React from "react";
-import { Board } from "../Board/board.component";
+
 
 import { GameState } from "./game.interfaces";
 import { IGameService } from "../../providers/game/game.service.interfaces";
 import { Link } from "react-router-dom";
 import { resolve } from "inversify-react";
-import { StyledGame, StyledGameInfo, StyledLink } from "./style.game";
+import { StyledGame, StyledGameInfo } from "./style.game";
+import { StyledLink } from "../App/styled.app";
 
-
+const Board =React.lazy(()=>import('../Board/board.component'));
 class Game extends React.Component<{}, GameState> {
   @resolve("gameServices")
   private readonly gameServices: IGameService<string>;
@@ -78,9 +79,7 @@ class Game extends React.Component<{}, GameState> {
             <ol>{moves}</ol>
           </StyledGameInfo>
           </StyledGame>
-        <Link to="/statistics">
-          <StyledLink >Go to Statistics</StyledLink>
-        </Link>
+       
       </div>
     );
   }

@@ -2,7 +2,9 @@ import React from "react";
 import { IGameService } from "../../providers/game/game.service.interfaces";
 import { resolve } from "inversify-react";
 import Moment from "moment";
-export class Statistics extends React.Component<{}, {}> {
+
+
+ class Statistics extends React.Component<{}, {}> {
   constructor(props: Readonly<{}>) {
     super(props);
     Moment.locale("en");
@@ -32,3 +34,4 @@ export class Statistics extends React.Component<{}, {}> {
     );
   }
 }
+export default Statistics;

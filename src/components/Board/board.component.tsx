@@ -1,8 +1,8 @@
-import { BroadProps } from "./board.interfaces";
-import React from "react";
-import { Square } from "../Square/square.component";
-import { StyledBoardRow } from "./style.board";
-export class Board extends React.Component<BroadProps, {}> {
+import { BroadProps } from './board.interfaces';
+import React from 'react';
+const StyledBoardRow= React.lazy(()=>import('./style.board'));
+const Square=React.lazy(()=>import('../Square/square.component'));
+ class Board extends React.Component<BroadProps, {}> {
   renderSquare(i: number) {
     return (
       <Square
@@ -15,7 +15,7 @@ export class Board extends React.Component<BroadProps, {}> {
   public render() {
     return (
       <div>
-        <div className="status">{status}</div>
+        <div className='status'>{status}</div>
         <StyledBoardRow>
           {this.renderSquare(0)}
           {this.renderSquare(1)}
@@ -35,3 +35,4 @@ export class Board extends React.Component<BroadProps, {}> {
     );
   }
 }
+export default Board;

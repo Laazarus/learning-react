@@ -3,7 +3,7 @@ import React from "react";
 
 import { StyledSquare } from './styled.square';
 
-export class Square extends React.Component<SquareProps> {
+ class Square extends React.Component<SquareProps> {
     public render() {
       return (
         <StyledSquare
@@ -16,3 +16,4 @@ export class Square extends React.Component<SquareProps> {
       );
     }
   }
+  export default Square;
