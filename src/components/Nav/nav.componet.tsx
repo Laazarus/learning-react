@@ -7,14 +7,14 @@ class Nav extends React.Component<{}, {}> {
     return (
   
         <StyledNav>
-          <ol>
+         
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/statistics">Go to Statistics</Link>
             </li>
-          </ol>
+       
         </StyledNav>
     );
   }

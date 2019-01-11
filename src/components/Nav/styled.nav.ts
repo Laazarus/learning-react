@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledNav = styled.ol`
+export const StyledNav = styled.ul`
   list-style-type: none;
   margin: 0;
   padding: 0;
